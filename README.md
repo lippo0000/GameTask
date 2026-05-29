@@ -1,64 +1,76 @@
-# Xbox Game Bar Widget Template
+# GameTask for Xbox Game Bar
 
-This repository provides a template for creating custom widgets for Xbox Game Bar. With this template, you can quickly get started with developing widgets to enhance the gaming experience for Xbox users.
+**GameTask** is a custom Xbox Game Bar extension designed to bring seamless task management and utility controls directly into your gaming overlay. Access your essential tasks without ever alt-tabbing or leaving your game.
 
-## Development Environment
+---
 
-This project was developed using Visual Studio 2022 Community edition. Ensure you have this IDE installed for seamless development experience.
+## 🎮 Overview
 
-## Installation
+GameTask integrates directly into the Windows ecosystem. By pressing `Win + G`, users can pull up the GameTask widget to manage their workflow, trigger actions, or monitor processes. 
 
-To use this widget template, follow these steps:
+To bypass the standard sandbox limitations of UWP (Universal Windows Platform) widgets, GameTask utilizes a dual-architecture design: an overlay UI and a background desktop launcher.
 
-1. Create a new repo from this template in the top right of this repo.
-2. Clone or download your new repository to your local machine.
-3. Open the solution file (`WidgetTemplate.sln`) in Visual Studio 2022.
-4. Install the NuGet package listed in the [Prerequisites section](https://github.com/meltyli/WidgetTemplate/edit/master/README.md#getting-started).
-5. You probably want to start out with editing Widget1.xaml file.
+## 🏗️ Project Architecture
 
-## Getting Started
+This repository contains two primary components:
 
-1. Prerequisites:
-- Visual Studio 2022 Community Edition (optional)
-- Install the NuGet package Microsoft.Gaming.XboxGameBar for your project.
-- Target a minimum of Windows 10 version 2004 (10.0 build 19041).
-2. Implement Xbox Game Bar API calls to interact with the Game Bar environment.
-3. Test your widget locally using Xbox Game Bar Developer Mode.
-4. Deploy your widget to the Microsoft Store for distribution.
+* **Core Widget (`WidgetTemplate` project):** The front-end user interface. This is the AppX/UWP component that renders inside the Xbox Game Bar overlay. *(Note: The internal project folder retains the 'WidgetTemplate' naming convention, but serves as the main UI).*
+* **GameTask Launcher (`Launcher` project):** A companion Win32/desktop application. This helper process bridges the gap between the Game Bar sandbox and the host OS, executing background tasks and system-level operations on behalf of the widget.
 
-Refer to the official [Microsoft documentation](https://docs.microsoft.com/en-us/gaming/game-bar/) for detailed instructions on developing and deploying Xbox Game Bar widgets.
+---
 
-## Renaming Visual Studio Project Parts
+## ⚙️ How It Works
 
-These are the recommended files to rename the project (also look out for version number and author).
+1. **Initialization:** When the user opens the GameTask widget via the Game Bar, the core UI initializes.
+2. **Execution:** For system-level tasks, the widget communicates with the **Launcher** component via App Execution Aliases or local app services. Make sure this is active, a warning should show in the widget if it's not. You can launch it Manually from the Downloaded "Launcher" Helper GT folder.
+3. **Action:** The Launcher executes the requested task silently in the background without interrupting the user's game.
+   
+---
 
-1. **Rename Namespace:**
-   - Right-click project > Rename > Enter new name.
+## 🛠 Prerequisites for Development
 
-2. **Update Project Files:**
+If you are building GameTask from source, ensure your development environment is set up with the following:
 
-   Update all instances of the following using Find and Replace (Ctrl + Shift + H):
-   1. `WidgetTemplate` > Replace with new name, eg. `MyWidget`.
-   2. `Widget1` > Replace with new name, eg. `WidgetName` AND rename the file called "Widget1", eg. `WidgetName.xaml`.
-   3. `widget1` > Replace with new name, eg. `widgetName`.
-  
-   **IMPORTANT: Check "Match case" when using find and replace.**
+* **Visual Studio 2022** (Community, Professional, or Enterprise)
+* **.NET Desktop Development** workload
+* **Universal Windows Platform (UWP) Development** workload
+* **Windows 10/11 SDK** (Targeting a minimum of Windows 10 version 2004 / Build 19041)
+* **Microsoft.Gaming.XboxGameBar** NuGet package installed
 
-4. **Update Assembly Information:**
-   - Rename the source folder (repo/WidgetTemplate) and solution file (WidgetTemplate.sln)
-   - Update line 7 in the solution file: eg. `Project("{CB0B05F0-5107-42F6-83B2-16BAA5DD2D9B}") = "WidgetName", "src\WidgetName.csproj", "{EC5E77E8-A523-4658-9D73-D35C831C4810}"`
-  
-5. Debug/build the app to validate renaming
-6. Push changes to remote
+---
 
-## Usage
+## 🚀 Building and Deployment
 
-This template provides a basic structure for creating Xbox Game Bar widgets. Customize the provided code according to your widget's requirements, including layout, functionality, and interaction with the Game Bar environment.
+### 1. Build the Solution
+1. Clone the repository and open `GameTask for Game Bar.sln` in Visual Studio 2022.
+2. Allow Visual Studio to restore the required NuGet packages.
+3. Select your target architecture from the build dropdown. (GameTask natively supports `x64`, `x86`, `ARM`, and `ARM64`).
+4. Build the solution by pressing `Ctrl + Shift + B`.
 
-## License
+### 2. Local Deployment & Testing
+To test the widget in your own Game Bar:
+1. Ensure **Xbox Game Bar Developer Mode** is enabled in your Windows Developer Settings.
+2. In the Visual Studio Solution Explorer, right-click the **WidgetTemplate** project and select **Deploy**.
+3. Press `Win + G` to open the Game Bar.
+4. Open the **Widget Menu** (the list icon at the top of the screen) and select **GameTask** to pin or view the overlay.
 
-This project is licensed under the [GNU General Public License v3.0](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+---
 
-## Acknowledgements
 
-Special thanks to the Xbox Game Bar development team at Microsoft for providing the tools and resources necessary for creating custom widgets. I've created this repo since the C# setup is not provided and Microsoft only refers to the samples.
+---
+
+## 🤝 Contributing
+
+We welcome pull requests for bug fixes, new features, and UI improvements. 
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature
+
+
+
+
+
+
+
+
+
+
