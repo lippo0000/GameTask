@@ -5,7 +5,7 @@ VisualStudioVersion = 18.6.11819.183
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTask GameBar Widget", "WidgetTemplate\GameTask GameBar Widget.csproj", "{E927FA35-4B18-4AF8-93A4-87155D5A84A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTHelper", "Launcher\GTHelper.csproj", "{6C3C7908-9847-4F19-AD85-F998154C1F8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTask Helper", "Launcher\GameTask Helper.csproj", "{6C3C7908-9847-4F19-AD85-F998154C1F8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
