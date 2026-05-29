@@ -4,6 +4,8 @@
 
 Access your essential tasks without ever alt-tabbing or leaving your game.
 
+<img width="217" height="488,5" alt="image" src="https://github.com/user-attachments/assets/825b9bec-4d19-4094-9c95-dcf2a171113e" />
+
 ---
 
 ## 🥜 In a nutshell
@@ -40,7 +42,10 @@ This repository contains two primary components:
 
 1. **Initialization:** When the user opens the GameTask widget via the Game Bar, the core UI initializes.
 2. **Execution:** For system-level tasks, the widget communicates with the **Launcher** component via App Execution Aliases or local app services. Make sure this is active, a warning should show in the widget if it's not. You can launch it Manually from the Downloaded "Launcher" Helper GT folder.
-3. **Action:** The Launcher executes the requested task silently in the background without interrupting the user's game.
+   
+<img width="440" height="230" alt="image" src="https://github.com/user-attachments/assets/def4d0f6-8951-4b05-b33e-467b01d58f76" />
+
+4. **Action:** The Launcher executes the requested task silently in the background without interrupting the user's game.
    
 ---
 
