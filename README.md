@@ -17,7 +17,10 @@ Access your essential tasks without ever alt-tabbing or leaving your game.
 4. 📁 **Multipath setup:** Some apps launch with an .exe, but switch window later.  Multipath allows targeting different services for the "same" app.
 5. 🎨 **Customisation options :**  Use custom icons, Emojis, Rename apps, and move them around.
 6. 🏷️ **Categories:** Categorise your apps and games however you want, assing each acategoy custom colors and behaviors.
-   
+
+
+   <img width="448" height="352" alt="image" src="https://github.com/user-attachments/assets/bd207f18-61de-4466-87b5-bdf4771c3b79" />
+
 ---
 
 ---
