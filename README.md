@@ -17,7 +17,7 @@ Access your essential tasks without ever alt-tabbing or leaving your game.
 4. 🔧 **Behavior System:** For each main button, you can decide additional subsequent Behaviors, like "Stay on GameBar", Exit "GameBar", "Focus App" and more.
 5. 🚀 **Pin Launched Services:** Option to automatically pin launched services to the top of the Widget for convenience.
 6. 📁 **Multipath setup:** Some apps launch with an .exe, but switch window later.  Multipath allows targeting different services for the "same" app.
-7. 🎨 **Customisation options :**  Use custom icons, Emojis, Rename apps, and move them around.
+7. 🎨 **Customisation options :**  Use custom icons, Emojis, or the .exe's default icons. Rename apps, and move them around.
 8. 🏷️ **Categories:** Categorise your apps and games however you want, assigning custom colors, icons and behaviors.
 
 
