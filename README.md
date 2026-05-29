@@ -1,14 +1,30 @@
 # GameTask for Xbox Game Bar
 
-**GameTask** is a custom Xbox Game Bar extension designed to bring seamless task management and utility controls directly into your gaming overlay. Access your essential tasks without ever alt-tabbing or leaving your game.
+**GameTask** is a custom Xbox Game Bar extension designed to bring seamless task management and utility controls directly into your gaming overlay. 
+
+Access your essential tasks without ever alt-tabbing or leaving your game.
+
+---
+
+## ⚙️ In a nutshell
+
+1. **Launch and Kill apps:** The core feature is to be able to Launch and Kill apps with a single press of the Action Buttons.
+2. **Focus and Fullscreen :** Bring certain apps to front, and send Custom Keys or Maximise command to make them occupy the whole screen.
+3. **Multipath setup:** Some apps launch with an .exe, but switch window later.  Multipath allows targeting different services for the "same" app.
+4. **Customisation options :**  Use custom icons, Emojis, Rename apps, and move them around.
+5. **Customisation options s :** Categorise your apps and games however you want, assing each acategoy custom colors and behaviors.
+   
+---
 
 ---
 
 ## 🎮 Overview
 
-GameTask integrates directly into the Windows ecosystem. By pressing `Win + G`, users can pull up the GameTask widget to manage their workflow, trigger actions, or monitor processes. 
+GameTask integrates directly into the Windows ecosystem. 
 
-To bypass the standard sandbox limitations of UWP (Universal Windows Platform) widgets, GameTask utilizes a dual-architecture design: an overlay UI and a background desktop launcher.
+By pressing `Win + G`, users can pull up the GameTask widget to manage their workflow, trigger actions, or monitor processes. 
+
+GameTask utilizes a dual-architecture design: an overlay UI and a background desktop launcher.
 
 ## 🏗️ Project Architecture
 
