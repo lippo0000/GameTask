@@ -1,0 +1,12 @@
+﻿<Application
+    x:Class="WidgetTemplate.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WidgetTemplate">
+
+    <Application.Resources>
+        <local:BoolToVisibilityConverter x:Key="BoolToVisibility"/>
+        <local:BoolToInverseVisibilityConverter x:Key="BoolToInverseVisibility"/>
+    </Application.Resources>
+
+</Application>
