@@ -11,8 +11,8 @@
 
 	<Identity
 	  Name="e52e539f-8d8b-4979-889c-a2b75bec88d5"
-	  Publisher="CN=melty"
-	  Version="1.0.0.0" />
+	  Publisher="CN=Lippo"
+	  Version="9.7.0.0" />
 
 	<mp:PhoneIdentity PhoneProductId="e52e539f-8d8b-4979-889c-a2b75bec88d5" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
