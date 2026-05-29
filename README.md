@@ -4,7 +4,8 @@
 
 Access your essential tasks without ever alt-tabbing or leaving your game.
 
-<img width="217" height="488,5" alt="image" src="https://github.com/user-attachments/assets/825b9bec-4d19-4094-9c95-dcf2a171113e" />
+
+<img width="217" height="488,5" alt="image" src="https://github.com/user-attachments/assets/829a99de-6247-4ab3-adc5-8c4ba2ce4928" />
 
 ---
 
