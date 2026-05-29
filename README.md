@@ -14,9 +14,11 @@ Access your essential tasks without ever alt-tabbing or leaving your game.
 1. 🎮 **Controller-first design :** The app is thought out for maximum ease-of-use when using a controller.
 2. ▶️ **Launch and Kill apps:** The core feature is to be able to Launch and Kill apps with a single press of the Action Buttons.
 3. 🪟 **Focus and Fullscreen :** Bring certain apps to front, and send Custom Keys or Maximise command to make them occupy the whole screen.
-4. 📁 **Multipath setup:** Some apps launch with an .exe, but switch window later.  Multipath allows targeting different services for the "same" app.
-5. 🎨 **Customisation options :**  Use custom icons, Emojis, Rename apps, and move them around.
-6. 🏷️ **Categories:** Categorise your apps and games however you want, assing each acategoy custom colors and behaviors.
+4. 🔧 **Behavior System:** For each main button, you can decide additional subsequent Behaviors, like "Stay on GameBar", Exit "GameBar", "Focus App" and more.
+5. 🚀 **Pin Launched Services:** Option to automatically pin launched services to the top of the Widget for convenience.
+6. 📁 **Multipath setup:** Some apps launch with an .exe, but switch window later.  Multipath allows targeting different services for the "same" app.
+7. 🎨 **Customisation options :**  Use custom icons, Emojis, Rename apps, and move them around.
+8. 🏷️ **Categories:** Categorise your apps and games however you want, assigning custom colors, icons and behaviors.
 
 
    <img width="448" height="352" alt="image" src="https://github.com/user-attachments/assets/bd207f18-61de-4466-87b5-bdf4771c3b79" />
