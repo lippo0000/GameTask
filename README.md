@@ -6,8 +6,9 @@ Access your essential tasks without ever alt-tabbing or leaving your game.
 
 ---
 
-## ⚙️ In a nutshell
+## 🥜 In a nutshell
 
+1. **Controller-first design :** The app is thought out for maximum ease-of-use when using a controller.
 1. **Launch and Kill apps:** The core feature is to be able to Launch and Kill apps with a single press of the Action Buttons.
 2. **Focus and Fullscreen :** Bring certain apps to front, and send Custom Keys or Maximise command to make them occupy the whole screen.
 3. **Multipath setup:** Some apps launch with an .exe, but switch window later.  Multipath allows targeting different services for the "same" app.
