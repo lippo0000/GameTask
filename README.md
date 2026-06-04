@@ -83,14 +83,14 @@ GameTask utilizes a dual-architecture design: an overlay UI and a background des
   
 ## 😭 Troubleshooting
 
-Widget buttons not working
-   Make sure Launcher.exe has been run at least once and is visible in the system tray.
+- Widget buttons not working
+  > Make sure Launcher.exe has been run at least once and is visible in the system tray.
 
-Certificate error when installing
-   Make sure you selected Local Machine and Trusted People in step 1.
+- Certificate error when installing
+  >Make sure you selected Local Machine and Trusted People in step 1.
 
-Helper not starting at boot
-   Run Launcher.exe manually once â€” it will re-register itself.
+- Helper not starting at boot
+  >  Run Launcher.exe manually once â€” it will re-register itself.
    
 .
 
